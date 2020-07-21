@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve -s build",
-    "start:dev": "node server.js"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"   
   },
   "author": "ritesh sharma",
   "license": "ISC",
@@ -19,7 +19,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.21.2",
-    "pg": "^8.3.0",
-    "serve": "^11.3.2"
+    "pg": "^8.3.0"
   }
 }
