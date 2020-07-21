@@ -9,7 +9,7 @@ const signin = require('./controllers/signin');
 const image = require('./controllers/image');
 
 
-const db= knex({
+const db = knex({
         client: 'pg',
         connection: {
           connectionString : process.env.DATABASE_URL, //localhost
